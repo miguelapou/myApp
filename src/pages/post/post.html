@@ -12,7 +12,17 @@
 
 </ion-header>
 
-
 <ion-content padding>
+<ion-list>
 
+  <ion-item>
+    <ion-label stacked>Write Post</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<div padding>
+  <button ion-button large full (click)="postRequest()">Post</button>
+</div>
 </ion-content>
